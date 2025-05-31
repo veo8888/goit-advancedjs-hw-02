@@ -1,4 +1,8 @@
 .header {
+  background-color: #e0e0e0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
   padding: 20px 0;
 }
 .nav {
@@ -9,6 +13,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
 }
 .nav-list {
   display: flex;

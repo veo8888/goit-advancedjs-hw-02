@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./img/icons/school.svg" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Promise generator</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+  <load src="./partials/header.html" icon-path="./img/sprite.svg#logo" highlight-curr="active" />
+
+  <main>
+    <div class="container">
+      <h1 class="main-title">
+        <span class="main-title-gradient">Promise generator</span> page 3
+      </h1>
+    </div>
+
+    <div class="container">
+      <form class="form">
+        <label>
+          Delay (ms)
+          <input type="number" name="delay" min="0" step="100" required />
+        </label>
+
+        <fieldset>
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit">Create notification</button>
+      </form>
+    </div>
+  </main>
+  <load src="./partials/footer.html" />
+
+  <script type="module" src="./js/2-snackbar.js"></script>
+
+</body>
+
+</html>

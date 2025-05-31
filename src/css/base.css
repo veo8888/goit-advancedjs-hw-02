@@ -15,7 +15,6 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
 body {
   display: flex;
   flex-direction: column;
@@ -23,7 +22,6 @@ body {
   min-height: 100vh;
   margin: 0;
 }
-
 main {
   flex-grow: 1;
 }
